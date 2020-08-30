@@ -87,6 +87,7 @@ class Configuration(object):
         cls.cracked_file = 'cracked.txt'
         cls.wordlist = None
         wordlists = [
+            '/home/default.txt',  # if you want a different default wordlist just chug it into youur home folder and it should be recognized 
             './wordlist-top4800-probable.txt',  # Local file (ran from cloned repo)
             '/usr/share/dict/wordlist-top4800-probable.txt',  # setup.py with prefix=/usr
             '/usr/local/share/dict/wordlist-top4800-probable.txt',  # setup.py with prefix=/usr/local
